@@ -27,7 +27,7 @@ const List = () => {
             <div className="wrapper">
                 <ArrowBackIosIcon className='Slider left' onClick={() => handleClick("left")}           style={{ display: !isMoved && "none" }}
                 />
-                <div className="container" ref={listRef}>
+                <div className="container" ref={listRef}>  
                   <Listitem index={0}/>
                   <Listitem index={1}/>
                   <Listitem index={2}/>
